@@ -1,0 +1,34 @@
+@font-face { 
+    font-family: "displayBlack";
+    src: url('./FuseV.2Display-Black.otf');
+}
+
+@font-face { 
+    font-family: "displayBold";
+    src: url('./FuseV.2Display-Bold.otf');
+}
+
+@font-face { 
+    font-family: "displayBook";
+    src: url('./FuseV.2Display-Book.otf');
+}
+
+@font-face { 
+    font-family: "displayRegular";
+    src: url('./FuseV.2Display-Regular.otf');
+}
+
+@font-face { 
+    font-family: "textBlack";
+    src: url('./FuseV.2Text-Black.otf');
+}
+
+@font-face { 
+    font-family: "textBold";
+    src: url('./FuseV.2Text-Bold.otf');
+}
+
+@font-face { 
+    font-family: "textLight";
+    src: url('./FuseV.2Text-Light.otf');
+}
