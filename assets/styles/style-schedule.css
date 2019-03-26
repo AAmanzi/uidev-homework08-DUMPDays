@@ -46,3 +46,55 @@
   color: initial;
 }
 
+.schedule__list{
+  width: 50%;
+  list-style: none;
+}
+
+.schedule__item{
+  padding: 20px 0;
+  width: 100%;
+  border-bottom: solid 1px lightgrey;
+
+  display: flex;
+  justify-content: space-between;
+
+  max-height: 100px;
+}
+
+.schedule__item__description{
+  display: flex;
+  flex-direction: column;
+}
+
+.schedule__item__description__time{
+  display: flex;
+  margin: 10px 0;
+  align-items: center;
+}
+
+.schedule__icon{
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  color: #193b44;
+}
+
+.schedule__category{
+  border: none;
+  padding: 2px 5px;
+  margin: 0 5px;
+  background-color: #203c44;
+  color: white;
+  text-align: center;
+  vertical-align: center;
+}
+
+.category-dev{
+  background-color: #a2d29f;
+}
+
+.schedule__item__logo{
+  max-width: 140px;
+  vertical-align: center;
+}
