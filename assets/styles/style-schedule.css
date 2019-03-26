@@ -4,6 +4,11 @@
   -moz-box-shadow: inset 0 69px 164px -127px rgba(48,206,193,.7);
   box-shadow: inset 0 69px 164px -127px rgba(48,206,193,.7);
   background-color: white;
+  font-family: "textLight";
+}
+
+.schedule__wrapper b{
+  font-family: "textBold";
 }
 
 .schedule__content{
@@ -13,7 +18,10 @@
 }
 
 .schedule__title{
+  font-family: "displayBlack";
+  font-size: 52px;
   color: #1a3b43;
+  margin: 60px 0 20px 0;
 }
 
 .schedule__description{
@@ -28,6 +36,7 @@
   border: 2px solid #30cec2;
   overflow: hidden;
   background-color: #30cec2;
+  margin: 50px 0 10px 0;
 }
 
 .schedule__button{
@@ -70,6 +79,9 @@
 }
 
 .schedule__item__description__time{
+  color: #193b44;
+  font-size: 16px;
+  font-family: "displayBold";
   display: flex;
   margin: 10px 0;
   align-items: center;
@@ -82,6 +94,12 @@
   color: #193b44;
 }
 
+.schedule__item__title{
+  font-family: "displayBook";
+  color: #193b44;
+  font-size: 22px;
+}
+
 .schedule__category{
   border: none;
   padding: 2px 5px;
@@ -90,6 +108,9 @@
   color: white;
   text-align: center;
   vertical-align: center;
+
+  font-size: 14px;
+  font-family: "displayRegular"
 }
 
 .category-dev{
