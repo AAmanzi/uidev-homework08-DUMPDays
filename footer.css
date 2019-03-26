@@ -1,0 +1,134 @@
+footer {
+    background-color: #fff;
+}
+
+footer section {
+    margin: auto;
+}
+
+.footer__newsletter {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.footer__newsletter h1 {
+    color: #1a3b43;
+    font-size: 52px;
+    font-family: 'textBlack';
+    margin-bottom: 20px;
+}
+
+.footer__newsletter p {
+    color: #193b44;
+    font-size: 20px;
+    font-family: 'textLight';
+    font-weight: 300px;
+    margin-bottom: 32px;
+}
+
+.footer__newsletter input {
+    background-color: #f2f2f2;
+    border: 0;
+    border-radius: 5px;
+    width: 35%;
+    padding: 18px;
+}
+
+.footer__newsletter a {
+    color: #fff;
+    padding: 14px 14px;
+    background-color: #1a3b43;
+    border-radius: 5px;
+    font-family: 'textBlack';
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+::placeholder {
+    font-size: 20px;
+    font-family: 'textLight';
+    font-weight: 300px;
+}
+
+.footer__communicate {
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+}
+
+.footer__communicate p {
+    line-height: 33px;
+    font-size: 20px;
+    color: #193b44;
+    font-family: 'displayBook';
+    margin: 15px 0 30px 0;
+}
+
+.footer__communicate h2 {
+    color: #30cec2;
+    font-family: 'displayBlack';
+    font-size: 35px;
+    max-width: 200px;
+}
+
+.footer__communicate div {
+    max-width: 300px;
+}
+
+.footer__communicate--register p {
+    color: #fff;
+    background-color: #193b44;
+}
+
+.footer__communicate a {
+    background-color: #30cec2;
+    padding: 10px 14px;
+    border-radius: 5px;
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 17px;
+}
+
+.footer__social {
+    margin-top: 50px;
+}
+
+.footer__social a {
+    color: transparent;
+    background-color: #193b44;
+    background-image: url('./footerAssets/youtube.png');
+    background-size: 25px 25px;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.footer__social--instagram {
+    background-image: url('./footerAssets/instagram.png') !important;
+}
+
+.footer__social--facebook {
+    background-image: url('./footerAssets/facebook.png') !important;
+}
+
+.footer__copyright {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.footer__copyright p {
+    font-family: 'textLight';
+    font-size: 14px;
+    color: #3c5860;
+}
+
+.footer__copyright a {
+    font-family: 'displayBook';
+    font-size: 20px;
+    color: #3c5860;
+    margin-right: 5px;
+}
