@@ -1,5 +1,5 @@
 footer {
-    background-color: #fff;
+    margin-top: 50px;
 }
 
 footer section {
@@ -48,7 +48,7 @@ footer section {
 
 .footer__communicate {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     text-align: left;
 }
 
@@ -68,16 +68,46 @@ footer section {
 }
 
 .footer__communicate div {
-    max-width: 300px;
+    width: 50%;
+}
+
+.footer__communicate--text-wrap {
+    max-width: 270px;
+    z-index: 1;
+    max-width: 385px;
+}
+
+.footer__communicate--contact {
+    display: flex;
+    justify-content: center;
+    padding: 60px;
+}
+
+.footer__communicate--register {
+    padding: 60px;
+    background-color: #193b44;
+    background-image: url('../images/pattern.png');
+    background-size: 1000px;
+    border-radius: 35px 0 0 35px;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
 }
 
 .footer__communicate--register p {
     color: #fff;
-    background-color: #193b44;
+}
+
+.footer__communicate--vr {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 110%;
 }
 
 .footer__social {
     margin-top: 50px;
+    max-width: 71%;
 }
 
 .footer__social a {
@@ -91,6 +121,7 @@ footer section {
     height: 50px;
     width: 50px;
     border-radius: 50%;
+    margin-right: 40px;
 }
 
 .footer__social--instagram {
@@ -105,6 +136,7 @@ footer section {
     display: flex;
     justify-content: space-between;
     margin-top: 30px;
+    max-width: 71%;
 }
 
 .footer__copyright p {
@@ -118,4 +150,52 @@ footer section {
     font-size: 20px;
     color: #3c5860;
     margin-right: 5px;
+}
+
+
+@media screen and (max-width: 1024px) {
+
+    .footer__newsletter h1 {
+        font-size: 32px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+
+    .footer__communicate--contact {
+        justify-content: flex-start;
+    }
+
+    .footer__social {
+        max-width: 80%;
+    }
+
+    .footer__copyright {
+        max-width: 80%
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    .footer__communicate {
+        flex-wrap: wrap-reverse;
+    }
+
+    .footer__communicate div {
+        width: 100%;
+    }
+
+    .footer__communicate--register {
+        border-radius: 0;
+        padding: 40px;
+        padding-bottom: 55px;
+    }
+
+    .footer__social {
+        margin-top: 0;
+    }
+
+    .footer__copyright {
+        flex-wrap: wrap;
+    }
 }

@@ -4,7 +4,6 @@
 }
 
 body {
-    background-color: #1f3c44;
 }
 
 a {
@@ -13,9 +12,9 @@ a {
 
 nav {
     position: fixed;
-    right: 0;
     left: 0;
-    background-color: #1f3c44;
+    right: 0;
+    background-color: transparent;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -54,18 +53,25 @@ nav li:hover {
 
 header {
     color: white;
-    padding-top: 90px;
+    height: 100vh;
+    max-width: 100%;
+    background-image: url('../images/callback.jpg');
+    background-position: center;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .header__wrap {
     max-width: 850px;
-    width: 72.5%;
-    margin: 19.5% auto;
+    padding-right: 60px;
 }
 
 header h1 {
     font-size: 65px;
     font-family: 'displayBlack';
+    max-width: 100%;
 }
 
 h1 span {
@@ -78,4 +84,70 @@ header h2 {
     letter-spacing: 0.5px;
     font-family: 'displayBook';
     margin-top: 20px;
+}
+
+.header__menu {
+    display: none;
+}
+
+@media screen and (max-width: 1023px) {
+    nav {
+        width: 100%
+    }
+
+    nav ul{
+        display: none;
+    }
+
+    nav img {
+        margin-left: 20px;
+    }
+
+    .header__menu {
+        margin-right: 20px;
+        display: inline-block;
+    }
+    
+    .header__menu span
+    {
+        display: block;
+        width: 30px;
+        height: 3px;
+        margin-bottom: 5px;
+        background: #fff;
+        border-radius: 1px;
+    }
+}
+
+@media screen and (max-width: 915px) {
+
+    header h1 {
+        font-size: 55px;
+        width: 800px;
+    }
+
+    .header__wrap {
+        padding-right: 0;
+        padding-left: 40px;
+    }
+}
+
+@media screen and (max-width: 840px) {
+
+    .header__wrap {
+        padding-left: 0px;
+        width: 95%;
+    }
+}
+
+@media screen and (max-width: 788px) {
+
+    header h1 {
+        font-size: 45px;
+        width: 600px;
+    }
+
+    .header__wrap {
+        margin-left: 10vw;
+    }
 }
