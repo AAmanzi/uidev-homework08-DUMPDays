@@ -58,6 +58,7 @@
 
   display: flex;
   justify-content: space-between;
+  align-items: center;
 
   max-height: 100px;
 }
@@ -94,7 +95,21 @@
   background-color: #a2d29f;
 }
 
+.category-design{
+  background-color: #e25e5f;
+}
+
 .schedule__item__logo{
   max-width: 140px;
+  max-height:70px;
   vertical-align: center;
+}
+
+.schedule__item a{
+  text-decoration: none;
+  color: inherit;
+}
+
+.schedule__item a:hover{
+  color: #30cec2;
 }
