@@ -118,11 +118,21 @@
 }
 
 @media screen and (max-width: 1024px){
+  .schedule__description{
+    max-width: 60%;
+  }
+
   .schedule__list{
     width: 90%;
   }
 
   .schedule__item__logo{
     display: none;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .schedule__description{
+    max-width: 80%;
   }
 }
