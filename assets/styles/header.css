@@ -48,11 +48,6 @@ nav li:hover {
     color: #30cec2;
 }
 
-nav a:last-child {
-    background-color: #30cec2;
-    border-radius: 5px;
-}
-
 .hover-color-white:hover {
     color: white;
 }
