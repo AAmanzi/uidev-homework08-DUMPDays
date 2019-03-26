@@ -136,3 +136,13 @@
     max-width: 80%;
   }
 }
+
+@media screen and (max-width: 1024px){
+  .schedule__item{
+    max-height: 300px;
+  }
+
+  .schedule__list{
+    width: 80%;
+  }
+}
