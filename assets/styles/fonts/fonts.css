@@ -32,3 +32,8 @@
     font-family: "textLight";
     src: url('./FuseV.2Text-Light.otf');
 }
+
+@font-face {
+    font-family: "sourceSansPro";
+    src: url('./6xK3dSBYKcSV-LCoeQqfX1RYOo3qOK7l.woff2')
+}

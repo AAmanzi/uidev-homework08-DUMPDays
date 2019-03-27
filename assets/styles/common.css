@@ -6,3 +6,7 @@
     font-size: 18px;
     letter-spacing: 1px;
 }
+
+.m-width-385px {
+    max-width: 385px !important;
+}
