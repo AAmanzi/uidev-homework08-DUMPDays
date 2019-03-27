@@ -1,12 +1,19 @@
 .main__title--wrap section:nth-child(2n) {
     float: right;
+    margin-top: 250px;
 }
 
 .main__title--wrap section:nth-child(2n+1) {
     clear: both;
+    margin-top: 1000px;
 }
 
 .main__title {
+    position: relative;
+    margin-top: 0 !important;
+}
+
+.main__section {
     position: relative;
 }
 
@@ -55,6 +62,17 @@
     padding-left: 18px;
 }
 
+.main__section--huge-number {
+    line-height: 230px;
+    font-size: 190px;
+    right: auto;
+    left: -18%;
+    top: 0;
+    color: #3c58602d;
+    position: absolute;
+    font-family: 'displayBlack';
+}
+
 .main__title--text {
     max-width: 500px;
     margin-top: 10px;
@@ -66,4 +84,59 @@
     top: 0;
     right: 0;
     width: 30vw;
+}
+
+.panel-number {
+    top: -30px;
+    left: -30px;
+}
+
+.main__section--lecturer {
+    position: absolute;
+    left: -86vw;
+    top: -28vw;
+    width: 60vw;
+}
+
+.main__section--workshops {
+    position: absolute;
+    width: 45vw;
+    top: -120px;
+    right: 0;
+}
+
+.main__section--biggy {
+    position: absolute;
+    top: -190px;
+    right: 0;
+    width: 100vw;
+    z-index: -1;
+}
+
+.main__section--panel {
+    position: absolute;
+    left: -73vw;
+    top: 0;
+    width: 45vw;
+}
+
+.main__section--pit {
+    position: absolute;
+    top: -200px;
+    right: 0;
+    width: 55vw;
+}
+
+.main__section--networking {
+    position: absolute;
+    top: -250px;
+    left: -80vw;
+    width: 45vw;
+}
+
+.main__section--awards {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 45vw;
 }

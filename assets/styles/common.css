@@ -1,3 +1,7 @@
+body {
+    overflow-x: hidden;
+}
+
 .button {
     color: #fff;
     padding: 10px 14px;
@@ -9,4 +13,20 @@
 
 .m-width-385px {
     max-width: 385px !important;
+}
+
+.m-top-500px {
+    margin-top: 500px !important;
+}
+
+.c-aqua {
+    color: #30cec2 !important;
+}
+
+.c-white {
+    color: #fff !important;
+}
+
+.b-color-1a3b43 {
+    background-color: #1a3b43;
 }
