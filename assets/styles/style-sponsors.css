@@ -90,7 +90,17 @@
   margin: 20px 25px;
 }
 
-.sponsor__silver__logo__wrapper:nth-child(4n){
+.sponsor__silver__title{
+  display: block;
+  text-align: center;
+  max-width: initial;
+}
+
+.sponsor__bronze__title{
+  display: block;
+  text-align: center;
+  max-width: initial;
+  font-size: 40px;
 }
 
 .sponsor__logo--small{
