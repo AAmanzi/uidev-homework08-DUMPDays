@@ -1,0 +1,252 @@
+.main__title--wrap section:nth-child(2n) {
+    float: right;
+    margin-top: 250px;
+}
+
+.main__title--wrap section:nth-child(2n+1) {
+    clear: both;
+    margin-top: 1000px;
+}
+
+.main__title {
+    position: relative;
+    margin-top: 100px !important;
+    margin-left: 75px;
+}
+
+.main__section {
+    position: relative;
+}
+
+.main__exhibiton {
+    margin-top: 0 !important;
+    padding: 160px 100px;
+}
+
+.main__title--title {
+    background-color: #1a3b43;
+    color: #fff;
+    max-width: 530px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    position: relative;
+    height: auto !important;
+}
+
+.main__title {
+    display: flex;
+    flex-direction: column;
+}
+
+.title__background-pattern {
+    position: absolute;
+    top: 35%;
+    left: 6%;
+    border-radius: 10px;
+    width: 100%;
+    height: 78px;
+    background-size: 100%;
+    background-image: url('../images/title--background.png');
+    z-index: -1;
+}
+
+.main__section--text {
+    font-family: 'sourceSansPro';
+    font-size: 20px;
+    line-height: 33px;
+    color: #1a3b43;
+    max-width: 360px;
+    padding-left: 18px;
+}
+
+.main__section--huge-number {
+    line-height: 230px;
+    font-size: 190px;
+    right: auto;
+    left: -18%;
+    top: 0;
+    color: #3c58602d;
+    position: absolute;
+    font-family: 'displayBlack';
+}
+
+.main__title--text {
+    max-width: 500px;
+    margin-top: 10px;
+    padding: 15px;
+}
+
+.main__section--text-wrap {
+    position: absolute;
+    top: 40%;
+    right: 20%;
+}
+
+.main__title--image {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 30vw;
+}
+
+.main__panel {
+    margin-top: 50px !important;
+    z-index: -1;
+    background-image: linear-gradient(bottom, #1a3b43, #1a3b43 1%, transparent 1%, transparent 100%);
+    background-image: -webkit-linear-gradient(bottom, #1a3b43 , #1a3b43 1%, transparent 1%, transparent 100%);
+}
+
+.panel-number {
+    top: -30px;
+    left: -30px;
+}
+
+.main__lectures {
+    margin-right: 12vw;
+}
+
+.main__section--lecturer {
+    position: absolute;
+    left: -68vw;
+    top: -25vw;
+    width: 55vw;
+}
+
+.main__workshops {
+    margin-left: 16vw;
+    margin-top: 850px !important;
+}
+
+.main__section--workshops {
+    position: absolute;
+    width: 45vw;
+    top: -80px;
+    right: 0;
+}
+
+.main__section--biggy {
+    width: 100vw;
+}
+
+.main__section--panel {
+    position: absolute;
+    left: -98px;
+    top: 25%;
+    width: 45vw;
+}
+
+.main__section--pit {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 55vw;
+}
+
+.main__networking {
+    margin-top: 150px !important;
+    margin-right: 22%;
+}
+
+.main__section--networking {
+    position: absolute;
+    top: -250px;
+    left: -56vw;
+    width: 45vw;
+}
+
+.main__section--awards {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 45vw;
+}
+
+.main--awards {
+    margin: 600px 0 500px 20vw !important;
+}
+
+
+@media screen and (max-width: 1024px) {
+
+    .main__title {
+        margin-left: 20px;
+    }
+
+    .main__title--title {
+        font-size: 40px;
+        padding: 5px 15px;
+        max-width: 400px !important;
+    }
+
+    .m-width-285px_1024 {
+        max-width: 285px !important;
+    }
+
+    .main__section--text {
+        font-size: 18px;
+        margin-top: 0;
+    }
+
+    .main__section--huge-number {
+        font-size: 125px;
+        top: -25px;
+        left: -25px;
+    }
+
+    .main__section--lecturer {
+        left: -60vw;
+    }
+
+    .main__section--workshops {
+        width: 40vw;
+        top: 0;
+    }
+
+    .main__workshops {
+        margin-left: 110px;
+        margin-top: 550px !important;
+    }
+
+    .main__exhibiton {
+        padding: 100px;
+    }
+
+    .main__section--pit {
+        width: 50vw;
+    }
+
+    .main__section--networking {
+        top: -100px;
+        left: -48vw;
+        width: 40vw;
+    }
+
+    .main--awards {
+        margin-top: 500px !important;
+    }
+
+    .main__section--awards {
+        width: 40vw;
+    }
+}
+
+@media screen and (max-width: 800px) {
+
+    .main__section--lecturer {
+        width: 42vw;
+        left: -50vw
+    }
+
+    .main__workshops {
+        margin-top: 450px !important;
+        margin-left: 50px;
+    }
+
+    .main__networking {
+        margin-right: 18%;
+    }
+
+    .main--awards {
+        margin-left: 15vw !important;
+    }
+}
