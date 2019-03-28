@@ -168,4 +168,7 @@
   .sponsor__wrapper--bronze .sponsor__logo__wrapper{
     width: calc(75% - 50px);
   }
+  .sponsors__title {
+    margin-left: 0;
+}
 }
