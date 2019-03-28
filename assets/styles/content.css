@@ -10,11 +10,17 @@
 
 .main__title {
     position: relative;
-    margin-top: 0 !important;
+    margin-top: 100px !important;
+    margin-left: 50px;
 }
 
 .main__section {
     position: relative;
+}
+
+.main__exhibiton {
+    margin-top: 0 !important;
+    padding: 160px 100px;
 }
 
 .main__section--title {
@@ -79,6 +85,12 @@
     padding: 15px;
 }
 
+.main__section--text-wrap {
+    position: absolute;
+    top: 40%;
+    right: 20%;
+}
+
 .main__title--image {
     position: absolute;
     top: 0;
@@ -86,57 +98,76 @@
     width: 30vw;
 }
 
+.main__panel {
+    margin-top: 50px !important;
+    z-index: -1;
+}
+
 .panel-number {
     top: -30px;
     left: -30px;
 }
 
+.main__lectures {
+    margin-right: 12vw;
+}
+
 .main__section--lecturer {
     position: absolute;
-    left: -86vw;
-    top: -28vw;
-    width: 60vw;
+    left: -68vw;
+    top: -25vw;
+    width: 55vw;
+}
+
+.main__workshops {
+    margin-left: 16vw;
+    margin-top: 850px !important;
 }
 
 .main__section--workshops {
     position: absolute;
     width: 45vw;
-    top: -120px;
+    top: -80px;
     right: 0;
 }
 
 .main__section--biggy {
-    position: absolute;
-    top: -190px;
-    right: 0;
     width: 100vw;
-    z-index: -1;
 }
 
 .main__section--panel {
     position: absolute;
-    left: -73vw;
-    top: 0;
+    left: -98px;
+    top: 25%;
     width: 45vw;
 }
 
 .main__section--pit {
     position: absolute;
-    top: -200px;
+    top: 0;
     right: 0;
     width: 55vw;
+}
+
+.main__networking {
+    margin-top: 150px !important;
+    margin-right: 22%;
 }
 
 .main__section--networking {
     position: absolute;
     top: -250px;
-    left: -80vw;
+    left: -56vw;
     width: 45vw;
 }
 
 .main__section--awards {
     position: absolute;
     top: 0;
-    left: 0;
+    right: 0;
     width: 45vw;
+}
+
+.main--awards {
+    margin: 600px 0 500px 20vw !important;
 }
