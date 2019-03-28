@@ -53,4 +53,7 @@ body {
     .m-top-285px-1024 {
         margin-top: 30% !important;
     }
+*{
+  margin: 0;
+  padding: 0;
 }
