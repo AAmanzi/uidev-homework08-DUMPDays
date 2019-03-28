@@ -23,16 +23,6 @@
     padding: 160px 100px;
 }
 
-.main__section--title {
-    font-family: 'displayBlack';
-    font-size: 54px;
-    display: inline-block;
-    color: #1a3b43;
-    letter-spacing: 2px;
-    line-height: 60px;
-    padding: 8px 18px;
-}
-
 .main__title--title {
     background-color: #1a3b43;
     color: #fff;
@@ -101,6 +91,8 @@
 .main__panel {
     margin-top: 50px !important;
     z-index: -1;
+    background-image: linear-gradient(bottom, #1a3b43, #1a3b43 1%, transparent 1%, transparent 100%);
+    background-image: -webkit-linear-gradient(bottom, #1a3b43 , #1a3b43 1%, transparent 1%, transparent 100%);
 }
 
 .panel-number {

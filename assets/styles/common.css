@@ -30,3 +30,13 @@ body {
 .b-color-1a3b43 {
     background-color: #1a3b43;
 }
+
+.main__section--title {
+    font-family: 'displayBlack';
+    font-size: 54px;
+    display: inline-block;
+    color: #1a3b43;
+    letter-spacing: 2px;
+    line-height: 60px;
+    padding: 8px 18px;
+}
