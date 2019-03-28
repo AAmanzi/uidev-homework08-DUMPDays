@@ -39,4 +39,18 @@ body {
     letter-spacing: 2px;
     line-height: 60px;
     padding: 8px 18px;
+    max-width: 50px;
+}
+
+@media screen and (max-width: 1024px) {
+
+    .main__section--title {
+        font-size: 32px;
+        height: 45px;
+        max-width: 100vw !important;
+    }
+
+    .m-top-285px-1024 {
+        margin-top: 30% !important;
+    }
 }
