@@ -14,6 +14,7 @@
   <link rel="stylesheet" href="./assets/styles/header.css">
   <link rel="stylesheet" href="./assets/styles/content.css">
   <link rel="stylesheet" href="./assets/styles/footer.css">
+  <link rel="stylesheet" href="./assets/styles/popup.css">
 </head>
 
 <body>
@@ -43,7 +44,7 @@
       </div>
   </nav>
 
-  <header>
+  <header id="Naslovnica">
       <div class="header__wrap">
           <h1>
               Konferencija za novu generaciju <span>IT profesionalaca</span>
@@ -53,7 +54,7 @@
           </h2>
       </div>
   </header>
-  <main>
+  <main id="Konferencija">
     <section class="main__title--wrap">
             <section class="main__title">
                 <h1 class="main__section--title main__title--title">
@@ -153,7 +154,7 @@
             </section>
         </section>
       
-    <section class="schedule__wrapper">
+    <section id="Raspored" class="schedule__wrapper">
       <div class="schedule__content">
         <h1 class="schedule__title">
           RASPORED
@@ -519,7 +520,7 @@
       </div>
     </section>
 
-    <section class="sponsors__wrapper">
+    <section id="Sponzori" class="sponsors__wrapper">
       <div class="sponsor__main">
         <div class="sponsor__image__wrapper">
           <img src="./assets/images/sponsors-title.png" alt="" class="sponsors__title">
@@ -778,7 +779,7 @@
             <a class="button" href="#">PRIJAVI SE</a>
         </section>
 
-        <section class="footer__communicate">
+        <section id="Kontakt" class="footer__communicate">
             <div class="footer__communicate--contact">
                 <div class="footer__communicate--text-wrap">
                     <h2>
@@ -824,6 +825,16 @@
             </span>
         </section>
     </footer>
+
+    <div id="popup__background" class="d-none-popup">
+      <a class="popup__close" href="#">&times;</a>
+      <a href="#Naslovnica">NASLOVNICA</a>
+      <a href="#Konferencija">KONFERENCIJA</a>
+      <a href="#Raspored">RASPORED</a>
+      <a href="#Sponzori">SPONZORI</a>
+      <a href="#Kontakt">KONTAKT</a>
+      <a href="#" class="button">REGISTRACIJA</a>
+    </div>
 
     <script src="./assets/scripts/script.js"></script>
 </body>
