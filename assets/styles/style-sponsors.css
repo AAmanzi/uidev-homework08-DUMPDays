@@ -73,6 +73,8 @@
 .sponsor__gold__title{
   margin: 80px 0 50px 0;
   text-align: center;
+  display: block;
+  max-width: initial;
 }
 
 .sponsor__wrapper--small{
@@ -140,7 +142,7 @@
   }
 
   .sponsors__title{
-    margin-left: -50%;
+    margin-left: 0;
     width: initial;
   }
 
@@ -168,6 +170,12 @@
   .sponsor__wrapper--bronze .sponsor__logo__wrapper{
     width: calc(33.33% - 50px);
   } 
+}
+
+@media screen and (max-width: 480px){
+  .sponsors__title{
+    width: 80%;
+  }
 }
 
 @media screen and (max-width: 375px){

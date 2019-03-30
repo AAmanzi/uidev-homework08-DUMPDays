@@ -1,6 +1,7 @@
 .main__title--wrap section:nth-child(2n) {
     float: right;
     margin-top: 250px;
+    z-index: 1;
 }
 
 .main__title--wrap section:nth-child(2n+1) {
@@ -80,6 +81,7 @@
     position: absolute;
     top: 40%;
     right: 20%;
+    z-index: 1;
 }
 
 .main__title--image {
@@ -248,5 +250,33 @@
 
     .main--awards {
         margin-left: 15vw !important;
+    }
+    
+    .main__section--panel{
+        left: -60px;
+        top: 0;
+    }
+}
+
+@media screen and (max-width: 730px){
+    .brate--mili{
+        background-color: #1a3b43;
+    }  
+}
+
+@media screen and (max-width: 480px){
+    .title__background-pattern{
+        width: 90%;
+    }
+
+    .main__panel {
+        z-index: 1;
+    }
+
+    .brate--mili{
+        padding-bottom: 175px;
+    }
+    .main__section--lecturer {
+        left: -10vw;
     }
 }

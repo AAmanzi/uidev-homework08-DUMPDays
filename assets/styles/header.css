@@ -16,7 +16,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     height: 90px;
-    z-index: 1;
+    z-index: 2;
 }
 
 nav img {
@@ -151,5 +151,12 @@ header h2 {
 
     .header__wrap {
         margin-left: 10vw;
+    }
+}
+
+
+@media screen and (max-width: 665px){
+    header h1 {
+        width: 80%;
     }
 }
