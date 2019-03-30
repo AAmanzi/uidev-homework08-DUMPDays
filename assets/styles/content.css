@@ -256,12 +256,28 @@
         left: -60px;
         top: 0;
     }
+
+    .main__title--image {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 730px){
     .brate--mili{
         background-color: #1a3b43;
     }  
+
+    .main__section--workshops {
+        top: -100px;
+    }
+
+    .main__section--pit {
+        top: auto;
+    }
+
+    .main__section--awards {
+        top: 200px;
+    }
 }
 
 @media screen and (max-width: 480px){
@@ -278,5 +294,19 @@
     }
     .main__section--lecturer {
         left: -10vw;
+    }
+    
+    .main__title--title {
+        font-size: 26px;
+        max-width: 275px !important;
+    }
+
+    .m-width-285px_1024 {
+        max-width: 195px !important;
+    }
+
+    .main__section--networking {
+        left: 0;
+        top: -150px !important;
     }
 }
