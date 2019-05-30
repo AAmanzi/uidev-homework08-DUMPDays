@@ -1,0 +1,66 @@
+.schedule__button__wrapper:hover button {
+  transition: background-color 0.5s ease;
+  background-color: white;
+  color: #30cec2;
+}
+
+.schedule__button__wrapper:hover .transition-black {
+  transition: color 0.5s ease;
+  color: black;
+}
+
+.schedule__button:hover {
+  transition: background-color 0.5s ease;
+  background-color: #30cec2 !important;
+}
+
+.schedule__button:hover > p,
+.schedule__button:hover > h3 {
+  transition: color 0.5s ease;
+  color: white !important;
+}
+
+img:hover {
+  transition: transform 1s ease;
+  transform: rotate(360deg);
+}
+
+nav li:hover {
+  transition: transform 0.1s ease;
+  transform: translate(0, 10px);
+}
+
+.animation-top:hover {
+  transform: translate(0, -10px);
+}
+
+header h1,
+header h2 {
+  transition: transform 1s ease;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+header:hover h1,
+header:hover h2 {
+  transition: transform 1s ease;
+  transform: matrix(1, -0.2, 0, 1, -50, -50);
+}
+
+.gallery img:hover {
+  transform: scale(1.2, 1.2)
+    matrix3d(1, 0, 0, 0.001, 0, 1, 0, 0, 0, 0, 1, 0, 20, 0, 0, 1);
+}
+
+.gallery__wrapper:hover .gallery__title__relative {
+  transition: transform 1s ease;
+  transform: matrix(1, 0, 0, 1, -100, 0);
+}
+
+.gallery__wrapper:hover .gallery__title__relative img {
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.gallery__wrapper .gallery__title__relative {
+  transition: transform 1s ease;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
