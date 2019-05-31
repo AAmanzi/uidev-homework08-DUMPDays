@@ -69,12 +69,68 @@ header {
 header h1 {
   font-size: 65px;
   font-family: "displayBlack";
-  max-width: 100%;
+  max-width: 800px;
 }
 
 h1 span {
+  max-width: initial;
+  position: relative;
   font-family: "displayBlack";
+  color: transparent;
+}
+
+h1 span:before {
+  content: attr(data-text);
+  position: absolute;
+  overflow: hidden;
+  max-width: 55px;
+  white-space: nowrap;
   color: #30cec2;
+  animation: loading 1s linear;
+}
+
+@keyframes loading {
+  0% {
+    max-width: 0;
+  }
+}
+
+h1 span:nth-child(2):before {
+  max-width: 445px;
+  animation: loadingafter 3s linear;
+}
+
+@keyframes loadingafter {
+  0% {
+    max-width: 0;
+  }
+  33% {
+    max-width: 0;
+  }
+}
+
+h1 span:nth-child(3):before {
+opacity: 0;
+  max-width: 35px;
+  animation: loadinglast 3.5s linear, tick 1s ease-out infinite;
+}
+
+@keyframes loadinglast {
+  0% {
+    max-width: 0;
+  }
+  85% {
+    max-width: 0;
+  }
+}
+
+@keyframes tick {  
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
 }
 
 header h2 {
